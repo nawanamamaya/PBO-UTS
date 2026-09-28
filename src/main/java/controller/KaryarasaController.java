@@ -188,7 +188,7 @@ public class KaryarasaController {
     private double mintaAngkaDouble(String label) {
         while (true) {
             System.out.print(label);
-            String input = scanner.nextLine();
+            String input = scanner.nextLine();      
             try {
                 return Double.parseDouble(input.trim());
             } catch (NumberFormatException e) {
